@@ -38,10 +38,6 @@ docker compose up
 ```
 docker compose build -d
 
-The above will be run to build the image for client, nodeapi and javaapi.
-
-![containe-runningrs](images/container-running.png)
-
 The following microservices will be created (app, db and web). RabbitMQ and memcached images are pulled directly from their official dockerhub website.
 
 This is configured in the docker compose file.
